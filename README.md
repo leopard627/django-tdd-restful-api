@@ -2,10 +2,10 @@
 
 ## 유투브 연결되어 있는 링크입니다.
 ## Vol-1
-https://www.youtube.com/watch?v=8acl5bOsaUg&feature=youtu.be
+http://www.youtube.com/watch?v=8acl5bOsaUg&feature=youtu.be
 
 ## Vol-2
-......
+http://www.youtube.com/watch?v=eKi66CRYOMY
 
 ## Vol-3
 ......

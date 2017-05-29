@@ -12,7 +12,7 @@ from .base import PostsBaseTest
 pytestmark = pytest.mark.django_db
 
 
-class PostViewTests(PostsBaseTest):
+class PostModelTests(PostsBaseTest):
     def test_create_user_model(self):
         User.objects.create(username='Hello_World')
         assert User.objects.count() == 1, "Should be equal"

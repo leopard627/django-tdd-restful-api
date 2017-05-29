@@ -2,10 +2,10 @@
 
 
 <p align="left">
-  <img src="./.img/django" width="400"/>
-  <img src="./.img/tdd" width="400"/>
-  <img src="./.img/backend" width="400"/>
-  <img src="./.img/youtube" width="400"/>
+  <img src="./.img/django.png" width="400"/>
+  <img src="./.img/tdd.png" width="400"/>
+  <img src="./.img/backend.png" width="400"/>
+  <img src="./.img/youtube.png" width="400"/>
 </p>
 
 

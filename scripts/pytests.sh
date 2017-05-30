@@ -10,3 +10,5 @@
 # cd ../src && pytest -s posts/tests/test_views.py -x --ipdb
 cd ../src && pytest -s posts/tests/test_views.py
 
+# cd ../src && pytest -s posts/tests/test_oauth2_models.py
+

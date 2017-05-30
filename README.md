@@ -35,9 +35,14 @@ $ git checkout feature/vol3
 http://www.youtube.com/watch?v=kZo5PBjbyY8
 
 ## Vol-4
-......
+## Oauth2 (토큰 인증)
+http://youtu.be/vir9KHPYKWY
 
-## .
+## Vol-5
+........
+
+## Vol-6
+.................
 
 TDD를 이용해서 필드에서 직접 사용하고 있는 방법.
 테크닉 등을 모두 찍어서 올릴 예정입니다.

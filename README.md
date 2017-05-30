@@ -36,6 +36,9 @@ http://www.youtube.com/watch?v=kZo5PBjbyY8
 
 ## Vol-4
 ## Oauth2 (토큰 인증)
+```sh
+$ git checkout feature/vol4
+```
 http://youtu.be/vir9KHPYKWY
 
 ## Vol-5

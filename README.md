@@ -2,7 +2,7 @@
 
 
 <p align="left">
-  <img src="./.img/django.png" width="600"/>
+  <img src="./.img/django.png" width="900"/>
   <img src="./.img/tdd.png" width="200"/>
   <img src="./.img/youtube.png" width="200"/>
 </p>

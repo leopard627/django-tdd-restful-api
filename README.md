@@ -14,6 +14,9 @@
 ## Vol-1
 ```sh
 # 이런식으로 체크아웃을 하시면서 볼륨 별로 확인을 하실 수있습니다.
+# 바로 아래의 git 명령어는 feature/vol1 브랜치를 확인 하는 명령어입니다.
+# 아래 vol1 브랜치로 이동하시면 vol1 에 해당하 유툽 동영상에서 
+# 작성을 했던 코드들을 확인 하실 수 있습니다.
 $ git checkout feature/vol1
 ```
 http://www.youtube.com/watch?v=8acl5bOsaUg&feature=youtu.be

@@ -12,12 +12,23 @@
 
 ## 유튭에 연결되어 있는 링크입니다.
 ## Vol-1
+```sh
+# 이런식으로 체크아웃을 하시면서 볼륨 별로 확인을 하실 수있습니다.
+$ git checkout feature/vol1
+```
 http://www.youtube.com/watch?v=8acl5bOsaUg&feature=youtu.be
 
 ## Vol-2
+
+```sh
+$ git checkout feature/vol2
+```
 http://www.youtube.com/watch?v=eKi66CRYOMY
 
 ## Vol-3
+```sh
+$ git checkout feature/vol3
+```
 http://www.youtube.com/watch?v=kZo5PBjbyY8
 
 ## Vol-4

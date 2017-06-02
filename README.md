@@ -34,15 +34,19 @@ $ git checkout feature/vol3
 ```
 http://www.youtube.com/watch?v=kZo5PBjbyY8
 
-## Vol-4
-## Oauth2 (토큰 인증)
+## Vol-4 Oauth2 (토큰인증)
 ```sh
 $ git checkout feature/vol4
 ```
 http://youtu.be/vir9KHPYKWY
 
-## Vol-5
-........
+## Vol-5 rabbitmq+celery (비동기, 메시지큐)
+```sh
+$ git checkout feature/vol5
+```
+http://youtu.be/wz5NExpzzYI
+
+
 
 ## Vol-6
 .................

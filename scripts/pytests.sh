@@ -8,7 +8,7 @@
 # cd ../src && pytest -s posts/tests/test_models.py -x --ipdb
 
 # cd ../src && pytest -s posts/tests/test_views.py -x --ipdb
-cd ../src && pytest -s posts/tests/test_views.py
+cd ../src && pytest -s posts/tests/tests_async/tests_celery_jobs.py
 
 # cd ../src && pytest -s posts/tests/test_oauth2_models.py
 

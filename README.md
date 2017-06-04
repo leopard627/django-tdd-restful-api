@@ -48,11 +48,27 @@ http://youtu.be/wz5NExpzzYI
 
 
 
-## Vol-6
-.................
+## Vol-6 django-extensions (useful plugin, 추천해드리는 플러그인)
+```sh
+$ git checkout feature/vol6
+```
+https://youtu.be/PBTh9zNvNnE
 
-TDD를 이용해서 필드에서 직접 사용하고 있는 방법.
-테크닉 등을 모두 찍어서 올릴 예정입니다.
+## Vol-7
+....
+
+
+## Vol-8
+....
+
+
+## Vol-9
+....
+
+
+
+TDD를 이용해서 밥벌어 먹고있는 필드에서 직접 사용하고 있는 방법.
+테크닉 등을 모두? 찍어서 올릴 예정입니다.
 이걸 다 찍어서 올리고 난 뒤에면 . . Go 또는 Earlng 을 T.D.D로 
 하는 방법을 찍어서 올릴 예정입니다.
 모두 모두  테스트 하세요 

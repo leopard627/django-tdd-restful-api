@@ -27,13 +27,13 @@ class TestSendEmaiTest(TestCase):
         send_mail(
             'Subject here',
             'Here is the message.',
-            'elastic7327@gmail.com',  # from
-            ['jhe7327@naver.com', 'jhkim@dibiup.com', 'elastic7327@gmail.com'],  # to
+            'somethere@gm.com',  # from
+            ['somethere@gl.com'],  # to
             fail_silently=True,
         )
         assert len(mail.outbox) == 1
         assert mail.outbox[0].subject == 'Subject here'
 
     def test_send_email_message(self):
-        msg = EmailMessage('Request Callback', 'Here is the message.', to=['jhe7327@naver.com', 'elastic7327gmail.com', 'jhkim@dibiup.com'])
+        msg = EmailMessage('Request Callback', 'Here is the message.', to=['example@email.com'])
         msg.send()

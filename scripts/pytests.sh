@@ -36,12 +36,12 @@ unset DATABASE_NAME
 unset DATABASE_USER
 unset DATABASE_PASSWORD
 
-export DEFAULT_FROM_EMAIL = "elastic7327@gmail.com"
+export DEFAULT_FROM_EMAIL = "YourEmailExample!!@gmail.com"
 export EMAIL_HOST="smtp.gmail.com" 
 export EMAIL_PORT=587
-export EMAIL_HOST_USER="elastic7327@gmail.com"
+export EMAIL_HOST_USER="YourEmailExample!!@gmail.com"
 export EMAIL_HOST_PASSWORD="Password"
-export SERVER_EMAIL="elastic7327@gmail.com"
+export SERVER_EMAIL="YourEmailExample!!@gmail.com"
 
 echo $DATABASE_HOST
 echo $DATABASE_PORT

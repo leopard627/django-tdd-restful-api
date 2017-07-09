@@ -55,8 +55,11 @@ $ git checkout feature/vol6
 ```
 https://youtu.be/PBTh9zNvNnE
 
-## Vol-7
-....
+## Vol-7 django send email example 
+```sh
+$ git checkout feature/vol7
+```
+
 
 
 ## Vol-8

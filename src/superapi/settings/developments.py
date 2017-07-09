@@ -1,11 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+
+import os
 from .base import *
+from .plugins.email.email_for_dev_conf import *
 
 OPTIONAL_APPS = [
         'django_extensions',
 ]
+
 
 # Celery를 테스트모드에서 실행할때에 꼭..
 CELERY_ALWAYS_EAGER = True

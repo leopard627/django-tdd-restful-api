@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 Django settings for superapi project.
 
@@ -15,6 +17,8 @@ import os
 from .plugins.drf.drf_conf import *
 from .plugins.oauth2.oauth2_conf import *
 from .plugins.celery.celery_conf import *
+from .plugins.channels.channels_conf import *
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -38,11 +42,14 @@ PREQ_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'django.contrib.sites',
     'django.contrib.staticfiles',
 
     'oauth2_provider',
     'rest_framework',
-    'djcelery'
+    'djcelery',
+    'channels',
+
 ]
 
 PROJECT_APPS = [

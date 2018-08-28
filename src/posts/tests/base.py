@@ -1,5 +1,10 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+"""
+File: base.py
+Author: Me
+Email: yourname@email.com
+Github: https://github.com/yourname
+Description:
+"""
 
 from datetime import timedelta
 
@@ -10,7 +15,7 @@ from django.utils import timezone
 from django.utils.crypto import get_random_string
 
 from rest_framework.test import APITestCase
-from oauth2_provider.tests.test_utils import TestCaseUtils
+# from oauth2_provider.tests.test_utils import TestCaseUtils
 from oauth2_provider.models import get_application_model, AccessToken
 from rest_framework import status
 
@@ -22,8 +27,7 @@ Application = get_application_model()
 pytestmark = pytest.mark.django_db
 
 
-# 한글로 주석 쓰려고 맨위에 저런걸 달아요
-class PostsBaseTest(APITestCase, TestCaseUtils):
+class PostsBaseTest(APITestCase):
 
     def test_create_user_model(self):
         User.objects.create(

@@ -11,7 +11,6 @@ from django.test import TestCase
 from django.core import mail
 
 from oauth2_provider.models import get_application_model, AccessToken
-from oauth2_provider.tests.test_utils import TestCaseUtils
 from rest_framework import status
 from mixer.backend.django import mixer
 

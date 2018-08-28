@@ -37,7 +37,7 @@ unset DATABASE_USER
 unset DATABASE_PASSWORD
 
 export DEFAULT_FROM_EMAIL = "YourEmailExample!!@gmail.com"
-export EMAIL_HOST="smtp.gmail.com" 
+export EMAIL_HOST="smtp.gmail.com"
 export EMAIL_PORT=587
 export EMAIL_HOST_USER="YourEmailExample!!@gmail.com"
 export EMAIL_HOST_PASSWORD="Password"
@@ -54,9 +54,9 @@ echo $EMAIL_PORT
 
 # cd ../src && pytest -s posts/tests/test_models.py -x --ipdb
 # cd ../src && pytest -s posts/tests/test_views.py -x --ipdb
-# cd ../src && pytest -s posts/tests/test_views.py
+cd ../src && pytest -s posts/tests/test_views.py
 # cd ../src && pytest -s posts/tests/tests_async/test_celery_jobs.py
 
-cd ../src && pytest -s tools/email/tests/test_send_email.py
+# cd ../src && pytest -s tools/email/tests/test_send_email.py
 # cd ../src && pytest -s posts/tests/test_oauth2_models.py
 

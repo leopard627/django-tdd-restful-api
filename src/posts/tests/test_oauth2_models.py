@@ -8,7 +8,6 @@ from django.contrib.auth.models import User
 from django.utils.crypto import get_random_string
 from mixer.backend.django import mixer
 from oauth2_provider.models import get_application_model, AccessToken
-from oauth2_provider.tests.test_utils import TestCaseUtils
 import pytest
 
 

@@ -1,0 +1,19 @@
+[
+  "posts/tests/test_models.py::PostsBaseTest::test_create_user_model",
+  "posts/tests/test_models.py::PostModelTests::test_create_suuser_via_mixer",
+  "posts/tests/test_models.py::PostModelTests::test_create_user_model",
+  "posts/tests/test_models.py::PostModelTests::test_create_user_via_mixer",
+  "posts/tests/test_oauth2_models.py::TestOauth2Model::()::test_create_oauth2_app",
+  "posts/tests/test_oauth2_models.py::TestOauth2Model::()::test_create_oauth2_token",
+  "posts/tests/test_views.py::PostsBaseTest::test_create_user_model",
+  "posts/tests/test_views.py::PostViewsTests::test_create_fake_data_then_send_get_request_via_user_viewset",
+  "posts/tests/test_views.py::PostViewsTests::test_create_user_model",
+  "posts/tests/test_views.py::PostViewsTests::test_send_get_request_via_user_viewset",
+  "posts/tests/test_views.py::PostViewsTests::test_send_post_request_via_user_viewset",
+  "posts/tests/test_views.py::PostViewsTests::test_send_retrive_update_destroy_request_via_user_viewset",
+  "posts/tests/tests_async/test_celery_jobs.py::PostsBaseTest::test_create_user_model",
+  "posts/tests/tests_async/test_celery_jobs.py::TestCeleryTasks::test_celery_tasks_module_level_test",
+  "posts/tests/tests_async/test_celery_jobs.py::TestCeleryTasks::test_create_user_model",
+  "tools/email/tests/test_send_email.py::TestSendEmaiTest::test_send_email_message",
+  "tools/email/tests/test_send_email.py::TestSendEmaiTest::test_send_super_simple_email_to_me"
+]

@@ -1,10 +1,7 @@
 # django-tdd-restful-api
 
 
-[![Build Status](https://travis-ci.org/elastic7327/django-tdd-restful-api.svg?branch=master)](https://travis-ci.org/elastic7327/django-tdd-restful-api)
-
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/django-tdd-restful-api/Lobby)
-
+[![Build Status](https://travis-ci.org/elastic7327/django-tdd-restful-api.svg?branch=master)](https://travis-ci.org/elastic7327/django-tdd-restful-api) [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/django-tdd-restful-api/Lobby) 
 
 
 

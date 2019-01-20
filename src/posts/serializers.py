@@ -4,6 +4,8 @@
 from rest_framework import serializers
 from django.contrib.auth.models import User
 
+from posts.models import Post
+
 
 class UserSerializer(serializers.ModelSerializer):
 
@@ -15,3 +17,10 @@ class UserSerializer(serializers.ModelSerializer):
             'email',
             'is_active',
         )
+
+
+class PostSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Post
+        fields = '__all__'

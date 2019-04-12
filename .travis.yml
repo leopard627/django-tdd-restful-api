@@ -1,6 +1,9 @@
 language: python
+
 python:
-  - "3.6"
+  - "3.7.3"
+
+cache: pip
 
 # command to install dependencies
 install: "pip install -r requirements/development.txt"

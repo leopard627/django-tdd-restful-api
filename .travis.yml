@@ -1,9 +1,16 @@
+dist: xenial   # required for Python >= 3.7
 language: python
+
 python:
-  - "3.6"
+  - "3.7"
+  - "3.7-dev"  # 3.7 development branch
+  - "3.8-dev"  # 3.8 development branch
+  - "nightly"  # nightly build
+
+cache: pip
 
 # command to install dependencies
 install: "pip install -r requirements/development.txt"
 
 # command to run tests
-script: cd src && pytest
+script: cd src && pytest -s -v

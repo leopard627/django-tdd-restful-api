@@ -17,7 +17,7 @@ django-filter==2.0.0
 django-oauth-toolkit==1.2.0
 django-oauth2-provider==0.2.6.1
 django-pytest==0.2.0
-djangorestframework==3.9.4
+djangorestframework==3.9.1
 Faker==0.8.8
 idna==2.7
 ipdb==0.11

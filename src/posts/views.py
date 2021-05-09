@@ -8,19 +8,21 @@ from oauth2_provider.contrib.rest_framework import TokenHasReadWriteScope, Token
 
 from posts.serializers import UserSerializer, PostSerializer
 from posts.models import Post
-
+from common.renderers import AwesomeJSONRenderer
 from common.paginations import RegularResultSetPagination
 
 
 class UserViewSet(viewsets.ModelViewSet):
     permission_classes = [TokenHasReadWriteScope]
     serializer_class = UserSerializer
+    renderer_classes = [AwesomeJSONRenderer]
     queryset = User.objects.all()
 
 
 class PostViewSet(viewsets.ModelViewSet):
     __basic_fields = ('id', 'title', 'contents')
     permission_classes = [TokenHasReadWriteScope]
+    renderer_classes = [AwesomeJSONRenderer]
     pagination_class = RegularResultSetPagination
     serializer_class = PostSerializer
     queryset = Post.objects.all()

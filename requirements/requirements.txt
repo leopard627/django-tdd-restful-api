@@ -10,7 +10,7 @@ certifi==2018.8.24
 chardet==3.0.4
 coverage==4.5.1
 decorator==4.3.0
-Django==2.2.20
+Django==2.2.21
 django-celery==3.2.2
 django-extensions==2.1.2
 django-filter==2.0.0

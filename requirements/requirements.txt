@@ -5,7 +5,7 @@ atomicwrites==1.1.5
 attrs==18.1.0
 backcall==0.1.0
 billiard==3.3.0.23
-celery==3.1.26.post2
+celery==5.2.2
 certifi==2018.8.24
 chardet==3.0.4
 coverage==4.5.1

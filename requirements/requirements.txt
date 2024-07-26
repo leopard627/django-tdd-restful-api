@@ -42,7 +42,7 @@ pytest-cov==2.5.1
 pytest-django==3.4.2
 python-dateutil==2.7.3
 pytz==2018.5
-requests==2.21.0
+requests==2.32.2
 shortuuid==0.5.0
 simplegeneric==0.8.1
 six==1.11.0
